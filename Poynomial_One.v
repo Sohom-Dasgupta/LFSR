@@ -1,7 +1,7 @@
 module lfsr_poly(clk,rst,count,q_out);
 input clk,rst;
 output [3:0] q_out;
-output [3:0] count;
+output [4:0] count;
 reg [4:0] count;
 reg [3:0] q;
 
